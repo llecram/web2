@@ -4,16 +4,16 @@ var user = user || {};
 
 user.aplicarHover = function(elemento){
 	elemento.hover(function () {
-		var width = ($(this).width())*1.25;
-		var height = ($(this).height())*1.25;
+		var width = ($(this).width())*2;
+		var height = ($(this).height())*2;
 
 		$(this).width(width);
 		$(this).height(height)
 
 	},
 	function () {
-		var width = ($(this).width())*0.8;
-		var height = ($(this).height())*0.8;
+		var width = ($(this).width())*0.5;
+		var height = ($(this).height())*0.5;
 
 		$(this).width(width);
 		$(this).height(height)
